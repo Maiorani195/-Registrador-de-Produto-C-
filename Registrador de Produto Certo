@@ -1,0 +1,53 @@
+#include <iostream>
+
+#include <string>
+
+
+
+int main() {
+
+    
+
+    std::string nome_do_produto;   
+
+   std::cout << "digite o nome do produto: ";
+
+    std::cin  >> nome_do_produto;
+
+    
+
+    double preco;
+
+   std::cout << "digite o preço: ";
+
+    std::cin >> preco;
+
+    
+
+    int estoque;
+
+    std::cout << "digite a quantidade no estoque: ";
+
+    std::cin >> estoque;
+
+
+
+std::cout<< "\n--- Resumo do Cadastro---\n";
+
+std::cout<<  "Produto: " << nome_do_produto << "\n";
+
+std::cout<<  "Preco: R$" << preco << "\n";
+
+std::cout<<  "Estoque: " << estoque << "\n";
+
+
+
+std::cout << "   O Produto :" <<   nome_do_produto   << "   custa:   "    <<    preco   << "      e temos:    "    << estoque <<   "     no estoque  ";
+
+    return 0;
+
+}
+
+
+
+    
